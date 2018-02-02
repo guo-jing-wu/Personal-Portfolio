@@ -1,4 +1,4 @@
-$('body').scrollspy({target: ".navbar"})
+$('body').scrollspy({target: ".navbar"});
 var $root = $("html, body");
 $('a[href^="#"]').click(function() {
 	$root.animate(
